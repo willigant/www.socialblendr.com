@@ -1,0 +1,131 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html id="public" class="no-js lt-ie9 lt-ie8 lt-ie7  info privacy" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html id="public" class="no-js lt-ie9 lt-ie8  info privacy" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html id="public" class="no-js lt-ie9  info privacy" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html id="public" class="no-js  info privacy" lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="version" content="0.2.1.2.1"/>
+
+    <link rel="dns-prefetch" href="http://ajax.googleapis.com/">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Social Blendr :: Make your night awesome! </title>
+    <meta name="description"
+          content="Social Blendr is a social club for young professionals in New York City. Not sure where to go tonight? Go out with Social Blendr and have an awesome time.">
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../static.socialblendr.com/css/www.cache.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="http://www.socialblendr.com/info/favicon.ico">
+
+</head>
+
+<body >
+
+<div class="container">
+
+    <div id="header" class="row">
+        <div class="span4">
+            <a id="main_logo" class="large_logo public_coke block" href="../index.html">
+                Social Blendr
+            </a>
+
+        </div>
+        <div class="span8 links">
+            <ul class="pull-right padding-top">
+                <li><a class="black_live" href="team/index.html">team</a></li>
+                <li><a class="black" href="mailto:khaliq@socialblendr.com" target="_blank">partnerships</a></li>
+                <li><a class="black" href="mailto:founders@socialblendr.com" target="_blank">contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main_content">
+        <div class="heading"><h1>Privacy Policy</h1></div>
+<p>Your privacy is very important to us. Accordingly, we have developed this policy in order for you to understand how
+    we collect, use, communicate and disclose and make use of personal information. The following outlines our
+    policy.</p>
+<ul>
+    <li>Before or at the time of collecting personal information, we will identify the purposes for which
+        information is being collected.</li>
+    <li>We will collect and use of personal information solely with the objective of fulfilling those purposes
+        specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned
+        or as required by law.</li>
+    <li>We automatically collect information from your browser when you visit our website. This information
+        includes your IP address, your browser type and language, access times, the content of any undeleted cookies
+        that your browser previously accepted from us and the referring website address.</li>
+    <li>We will only retain personal information as long as necessary for the fulfillment of those purposes.
+    </li>
+    <li>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge
+        or consent of the individual concerned.</li>
+    <li>Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary
+        for those purposes, should be accurate, complete, and up-to-date.</li>
+    <li>We take appropriate security measures (including physical, electronic and procedural measures) to help
+        safeguard your personal information from unauthorized access and disclosure. We want you to feel confident
+        using our website to transact business. However, no system can be completely secure. Therefore, although we
+        take steps to secure your information, we do not promise, and you should not expect, that your personal
+        information, searches, or other communications will always remain secure. Users should also take care with
+        how they handle and disclose their personal information and should avoid sending personal information
+        through insecure email. Please refer to the Federal Trade Commission's website at
+        http://www.ftc.gov/bcp/menus/consumer/data.shtm for information about how to protect yourself against
+        identity theft.</li>
+    <li>We will make readily available to customers information about our policies and practices relating to the
+        management of personal information.</li>
+</ul>
+<p>We are committed to conducting our business in accordance with these principles.</p>    </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <div class="column_1">
+            <ul>
+                <li><a href="team/index.html">Team</a></li>
+                <li><a href="investors/index.html">Investors</a></li>
+                <li><a href="privacy">Privacy Policy</a></li>
+                <li><a href="terms/index.html">Terms & Conditions</a></li>
+            </ul>
+            <p>Social Blendr is by invitation only.<br/> Call
+                us! <span class="bold">(646) 397-2386</span> - We're a knee-slappin good time on the phone
+            </p>
+        </div>
+        <div class="column_2">
+            <ul>
+                <li><a class="twitter" href="http://www.twitter.com/socialblendr">See how hilarious we are on
+                    Twitter</a></li>
+                <li><a class="facebook" href="http://www.facebook.com/socialblendr">See how popular we are on
+                    Facebook</a></li>
+                <li><a class="tumblr" href="../../blog.socialblendr.com/index.html">Read about our progress on our blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script src="../dynamic_sheet/js"></script>
+
+    <script>
+        var _gaq = [
+            ['_setAccount', 'UA-5176342-8'],
+            ['_trackPageview']
+        ];
+        (function (d, t) {
+            var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s)
+        }(document, 'script'));
+    </script>
+
+</body>
+</html>

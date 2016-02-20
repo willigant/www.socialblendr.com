@@ -1,0 +1,50 @@
+delayTimer = null;
+
+function getResults() {
+    $.get('http://kdev.socialblendr.com/gifsert/finder/?q=' + escape($('#gif').val()),
+        function (data) {
+        $('#results').html(data);
+    });
+    delayTimer = null;
+}
+
+$(document).ready(function () {
+    $('#gif').keyup(function () {
+        if (delayTimer)
+            window.clearTimeout(delayTimer);
+        delayTimer = window.setTimeout(getResults, 200);
+    });
+});
+
+delayTimer = null;
+
+function getResults_insert() {
+    $.get('http://kdev.socialblendr.com/gifsert/finder_2/?q=' + escape($('#gif_insert').val()),
+        function (data) {
+            $('#results').html(data);
+        });
+    delayTimer = null;
+}
+
+$(document).ready(function () {
+    $('#gif_insert').keyup(function () {
+        if (delayTimer)
+            window.clearTimeout(delayTimer);
+        delayTimer = window.setTimeout(getResults_insert, 200);
+    });
+});
+$('#khaliq_bio').hover(function () {
+    $('#khaliq_bio .founder').addClass('wacky');
+}, function () {
+    $('#khaliq_bio .founder').removeClass('wacky');
+});
+$('#will_bio').hover(function () {
+    $('#will_bio .founder').addClass('wacky');
+}, function () {
+    $('#will_bio .founder').removeClass('wacky');
+});
+
+
+$(document).ready(function () {
+
+});
